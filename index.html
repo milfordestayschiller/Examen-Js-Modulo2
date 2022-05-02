@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="main.css">
+    <title>Typer D</title>
+</head>
+
+<body>
+    <!--Container Principal-->
+    <div class="container">
+        <h1 class="proyecto"></h1>
+        <input class="main" type="text" placeholder="Escribe tu palabra..." id="input" style="width: 40%;">
+        <h1 class="tiempo">Tiempo restante <span id="timeSpan"></span></h1>
+        <h1 class="scorevalor">Score <span id="score">0</span></h1>
+    </div>
+    <!--Div se agrega al final del juego-->
+    <div class="container2" id="end-game-container">
+        <h1 class="sintiempo"></h1>
+        <p id="scorefinal"></p><span class="puntajefinal"></span> </p>
+        <h1>Typer D</h1>
+        <button onclick="location.reload()">Volver a empezar</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+body {
+    background: black;
+    margin: 0 auto;
+}
+/* Contenedor principal*/
+.container {
+    text-align: center;
+    padding: 30px 40px 30px 30px;
+    width: 400px;
+    background-image: url('https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 40px;
+}
+/* Titulo y parrrafo*/
+h1, p {
+    color: white;
+    font-size: 250%;
+}
+
+/* Clases derivadas del Container principal */
+#timeSpan, #score {
+    color: red;
+}
+
+#input {
+    padding: 10px 10px;
+}
+
+/* Id Contenedor 2, parte final */
+#scorefinal {
+    color: white;
+    text-align: center !important;
+}
+/* Clase sin tiempo asignada desde la funcion gameOver a traves de ClasslIST */
+.sintiempo {
+    color: red;
+    text-align: center;
+}
+/* Contenedor fase final del juego clase con propiedades */
+.container2 {
+    color: white;
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 40px;
+    text-align: center;
+    padding: 5px 90px 20px 90px;
+    width: 400px;
+    font-size: 125%;
+    background-image: url('https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+/* Clases de funcion main, es aqui donde los elementos desaparecen para reaparecer al final del juego*/
+.proyectos {
+    display: none;
+}
+
+.mains {
+    display: none;
+}
+
+.tiempos {
+    display: none;
+}
+
+.scorevalores {
+    display: none;
+}
